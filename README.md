@@ -1,6 +1,13 @@
 # rsi-bot
 Scans binance for oversold cryptocurrencies. Sends buy order and tracks performance of position. Closes position after pre-set profit/loss level is passed
 
+## Installing Dependencies
+For this program we will be using websocket, json, pprint, talib, numpy, datetime, os, binance.client, and twilio.rest
+
+To set up the needed packages, RUN the following command in your terminal after making sure the "requirements.txt" file is in your local directory. 
+
+pip install -r requirements.txt
+
 ## Set Up Tips
 
 - You must have a Binance account in order to use this program (and a Twilio account for SMS updates when the program makes trades.) 

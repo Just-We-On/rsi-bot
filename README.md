@@ -6,7 +6,7 @@ For this program we will be using websocket, json, pprint, talib, numpy, datetim
 
 To set up the needed packages, RUN the following command in your terminal after making sure the "requirements.txt" file is in your local directory. 
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Set Up Tips
 

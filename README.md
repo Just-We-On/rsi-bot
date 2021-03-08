@@ -1,2 +1,9 @@
 # rsi-bot
-Scans binance for oversold cryptocurrencies. Sends buy order and tracks performance of position. Closes position after pre-set profit/loss level is passed. 
+Scans binance for oversold cryptocurrencies. Sends buy order and tracks performance of position. Closes position after pre-set profit/loss level is passed
+
+## Set Up Tips
+
+- You must have a Binance account in order to use this program (and a Twilio account for SMS updates when the program makes trades.) 
+- Create a config.py file in your local directory and set your Binance API Public Key equal to API_KEY, set your API private key equal to API_SECRET
+- If you want to use the twilio SMS feature then repeat the same steps with account_sid and auth_token
+- Once you've set up the Twilio and Binance API, you can adjust the buy/sell parameter to adjust how risky you want the program to behave. You can also choose the 5 cryptocurrencies you want to trade. 
